@@ -1,0 +1,19 @@
+numpy
+pandas
+matplotlib
+opencv-python
+rasterio
+torch
+torchvision
+jupyter
+pillow
+labelme
+#torch torchvision segmentation-models-pytorch
+ albumentations
+opencv-python
+matplotlib
+ scikit-learn
+ tqdm
+segmentation_models_pytorch
+scikit-learn
+ scikit-image

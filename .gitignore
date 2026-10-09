@@ -1,0 +1,47 @@
+﻿# Python environment and caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Large datasets and uploaded images
+data/raw/
+data/frontend_uploads/
+data/sam2_masks/
+
+# Generated predictions and analysis results
+outputs/
+flow_outputs/
+
+# Model weights and checkpoints
+models_saved/*.pth
+checkpoints/*.pt
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# All local datasets, masks, and uploaded images
+data/
+
+
+# SAM2 model checkpoints
+sam2/checkpoints/
+
+# Exclude unused SAM2 examples and demos
+sam2/demo/
+sam2/notebooks/
+sam2/sav_dataset/
+sam2/assets/
